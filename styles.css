@@ -1,27 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
 .header-container {
     display: flex;
     background-color: #1f2937;
-    padding: 0px 10% 0px 10%;
-    justify-content: flex-end;
-    
+    padding: 20px 0;
+    justify-content: center;
 }
 .logo {
+    display: flex;
 	color: #f9faf8;
     font-size: 24px;
-    position: absolute;
-    left: 10%;
+    justify-content: flex-start;
 }
-.nav-container {
-    
-    /* text-align: right; */
-    
-    
-    
-    
+.nav {
+    display: flex;
+    width: 1000px; /* sets the width of the nav menu in pixels */
+    justify-content: flex-end;
 }
-.header-link {
-    display: inline-block;
+.link {
     color: #e5e7eb;
     font-size: 18px;
-    margin-left: 20px;
 }
